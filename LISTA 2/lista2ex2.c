@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-//Programa para mostrar o dobro de um número 
+//Programa para mostras o Antrcessor  e Sucessor de um numero 
 
 int main() {
     int num;
     printf("Digite um numero inteiro: ");
     scanf("%d", &num);
-    printf("O dobro de %d e %d\n", num, num * 2);
+    printf("Antecessor: %d, Sucessor: %d\n", num - 1, num + 1);
     return 0;
 }
