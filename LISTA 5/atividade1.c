@@ -28,4 +28,7 @@ int main() {
 				printf("Categoria invalida!\n");
 			}
 	return 0;
-}
+	}
+
+	
+
